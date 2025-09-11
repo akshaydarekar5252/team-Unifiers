@@ -98,7 +98,7 @@ export default function App() {
       />
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-16">
+      <footer className="bg-gray-900 text-white py-12 mt-16 z-10 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>

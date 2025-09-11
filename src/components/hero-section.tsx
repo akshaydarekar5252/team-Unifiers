@@ -44,7 +44,7 @@ export function HeroSection({ onExploreClick, onPlanTripClick, onDestinationSele
           muted
           loop
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover fixed"
           poster="https://images.unsplash.com/photo-1582719508461-905c673771fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqaGFya2hhbmQlMjBuYXR1cmUlMjBsYW5kc2NhcGUlMjBmb3Jlc3R8ZW58MXx8fHwxNzU3NDA5OTk1fDA&ixlib=rb-4.1.0&q=80&w=1920&utm_source=figma&utm_medium=referral"
         >
           {/* Multiple video sources for better compatibility */}
