@@ -49,11 +49,11 @@ export function HeroSection({ onExploreClick, onPlanTripClick, onDestinationSele
         >
           {/* Multiple video sources for better compatibility */}
           <source
-            src="/jharkhand_hero.mp4"
+            src="/jharkhand_nature.mp4"
             type="video/mp4"
           />
           <source
-            src=""
+            src="https://wjjqricsgk.ufs.sh/f/hT9nIDK6CVFoiaRlxxIECF94qfnjXUksSWyr3Ta7mKh2xLbY"
             type="video/mp4"
           />
           {/* Fallback for browsers that don't support video */}
