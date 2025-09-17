@@ -287,13 +287,287 @@ The establishment of the Netarhat Field Firing Range by the Indian Army in 1958 
           languages: ["Hindi", "English", "Kurukh"]
         }
       ]
+    },
+
+    4: {
+      id: 4,
+      name: "Santhal Pargana Cultural Village",
+      category: "cultural",
+      images: [
+        "https://images.unsplash.com/photo-1611262360544-af37696056b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmliYWwlMjB2aWxsYWdlJTIwaW5kaWElMjBjdWx0dXJhbCUyMGhlcml0YWdlfGVufDF8fHx8MTc1ODA4NjE0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1580467469359-91a73a6e92ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGhhbmRpY3JhZnRzJTIwdHJpYmFsJTIwYXJ0JTIwaW5kaWF8ZW58MXx8fHwxNzU4MDg2MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1615139440333-9ac3c41c53f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmliYWwlMjBhcmNoaXRlY3R1cmUlMjB0cmFkaXRpb25hbCUyMGh1dHMlMjB2aWxsYWdlfGVufDF8fHx8MTc1ODA4NjE1MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      ],
+      rating: 4.9,
+      duration: "1-2 days",
+      distance: "280 km from Ranchi",
+      bestTime: "October to March",
+      description: "Experience authentic Santhal tribal culture through village stays, traditional art workshops, folk performances, and immersive cultural exchanges with one of Jharkhand's largest tribal communities.",
+
+      history: {
+        title: "Living Heritage of the Santhal Tribe",
+        content: `Santhal Pargana, literally meaning "the land of the Santhals," is home to India's third-largest tribal community. The Santhals migrated to this region around the 18th century from the Himalayan foothills, establishing a unique cultural enclave that has preserved its traditions for over 300 years.
+
+The Santhal Rebellion of 1855-56, led by the legendary brothers Sidhu and Kanhu Murmu, was one of the first major tribal uprisings against British colonial rule. This historic resistance movement not only challenged the exploitative zamindari system but also laid the foundation for tribal rights and self-governance that continues to influence modern tribal politics.
+
+The Santhal cultural landscape is deeply rooted in their animistic beliefs, where every element of nature - trees, mountains, rivers, and animals - is considered sacred. Their oral traditions, passed down through generations via folk songs called "Baha" and "Karam," contain the collective memory of their ancestors, mythology, and moral teachings.
+
+The traditional Santhal architecture reflects their harmonious relationship with nature. Their houses, built with mud, bamboo, and thatched roofs, are designed to withstand the region's climate while minimizing environmental impact. The village layout follows ancient principles of community living, with the "Manjhi Than" (village headman's place) at the center.
+
+Santhal art forms like Jadur Patiya (scroll paintings) and Pata Chitra have been recognized by UNESCO for their cultural significance. These art forms serve multiple purposes - storytelling, historical documentation, and spiritual expression - making them living repositories of tribal wisdom.
+
+The Santhal language, written in the unique Ol Chiki script developed by Pandit Raghunath Murmu in 1925, is now an official language of Jharkhand. This achievement represents the community's successful struggle to preserve their linguistic identity in the modern world.`
+      },
+
+      highlights: [
+        "Authentic tribal village experience",
+        "Traditional mud house architecture", 
+        "Live folk music and dance performances",
+        "Handicraft workshops (Jadur Patiya, pottery)",
+        "Organic tribal farming methods",
+        "Sacred grove visits",
+        "Traditional Santhal cuisine",
+        "Ol Chiki script learning sessions"
+      ],
+
+      practicalInfo: {
+        entryFee: "₹500 per person (includes village tour)",
+        timings: "8:00 AM - 6:00 PM",
+        homestayCharges: "₹1500-2500 per night (meals included)",
+        facilities: ["Homestays", "Cultural center", "Handicraft workshops", "Organic farm tours"],
+        culturalPrograms: "Evening dance performances (₹300 per person)",
+        workshopFee: "₹800 for art workshops",
+        contact: "+91-6431-234567"
+      },
+
+      weather: {
+        current: "Pleasant, 26°C",
+        recommendation: "Ideal for cultural immersion",
+        seasonal: {
+          winter: "Cool and comfortable (15-28°C), festival season",
+          summer: "Warm but bearable (28-38°C), agricultural activities",
+          monsoon: "Heavy rainfall, traditional ceremonies and farming"
+        }
+      },
+
+      activities: [
+        "Village homestay",
+        "Traditional craft workshops",
+        "Folk dance learning",
+        "Tribal cuisine cooking",
+        "Sacred grove meditation",
+        "Organic farming experience",
+        "Storytelling sessions",
+        "Traditional archery"
+      ],
+
+      localGuides: [
+        {
+          name: "Sona Murmu",
+          specialty: "Santhal Culture & Traditional Arts",
+          rating: 5.0,
+          price: "₹1500/day",
+          languages: ["Hindi", "English", "Santhali"]
+        },
+        {
+          name: "Ramesh Hembram",
+          specialty: "Folk Music & Dance",
+          rating: 4.9,
+          price: "₹1200/day",
+          languages: ["Hindi", "Santhali", "Bengali"]
+        }
+      ]
+    },
+
+    5: {
+      id: 5,
+      name: "Tribal Heritage Museum & Cultural Complex",
+      category: "cultural",
+      images: [
+        "https://images.unsplash.com/photo-1580467469359-91a73a6e92ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGhhbmRpY3JhZnRzJTIwdHJpYmFsJTIwYXJ0JTIwaW5kaWF8ZW58MXx8fHwxNzU4MDg2MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1738743910769-819afad5f9fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBmb2xrJTIwZGFuY2UlMjBmZXN0aXZhbCUyMGN1bHR1cmFsJTIwY2VsZWJyYXRpb258ZW58MXx8fHwxNzU4MDg2MTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1739354270106-64c3fa92dd9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGluZGlhbiUyMGRydW1zJTIwbXVzaWMlMjBpbnN0cnVtZW50c3xlbnwxfHx8fDE3NTgwODYxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      ],
+      rating: 4.8,
+      duration: "Half day",
+      distance: "12 km from Ranchi",
+      bestTime: "Year-round",
+      description: "A comprehensive showcase of Jharkhand's 32 tribal communities, featuring rare artifacts, traditional dwellings, live demonstrations, and interactive cultural experiences.",
+
+      history: {
+        title: "Preserving Jharkhand's Tribal Tapestry",
+        content: `The Tribal Heritage Museum and Cultural Complex, established in 2003, stands as a testament to Jharkhand's incredible cultural diversity. This institution was born from the vision of preserving and promoting the heritage of 32 distinct tribal communities that call Jharkhand home.
+
+The museum houses over 3,000 rare artifacts collected over two decades, representing the material culture of tribes including Munda, Ho, Santhal, Oraon, Kharia, Birhor, Korwa, and many others. Each artifact tells a story of survival, adaptation, and cultural continuity spanning thousands of years.
+
+The complex's design itself reflects tribal architectural wisdom, incorporating traditional building techniques and sustainable materials. The main gallery building follows the Munda concept of "Khutidar" houses, while the outdoor exhibits replicate traditional village layouts of different tribal communities.
+
+One of the museum's most significant collections is the archive of tribal languages and oral traditions. With many tribal languages facing extinction, the museum has documented folk tales, songs, and oral histories in their original languages, creating an invaluable resource for future generations.
+
+The institution also serves as a research center, collaborating with anthropologists, linguists, and tribal scholars worldwide. Its publications and documentation efforts have contributed significantly to the academic understanding of tribal societies and their contemporary challenges.
+
+Perhaps most importantly, the museum operates as a living cultural space where tribal artisans, musicians, and storytellers regularly perform and teach. This approach ensures that traditions remain dynamic and relevant rather than becoming mere historical curiosities.
+
+The complex has become a model for cultural preservation efforts across India, receiving recognition from UNESCO and the Indian National Trust for Art and Cultural Heritage (INTACH) for its innovative approach to tribal heritage conservation.`
+      },
+
+      highlights: [
+        "32 tribal communities represented",
+        "3,000+ rare cultural artifacts",
+        "Traditional dwelling replicas",
+        "Live craft demonstrations",
+        "Interactive cultural workshops",
+        "Tribal language archive",
+        "Contemporary tribal art gallery",
+        "Research library and documentation center"
+      ],
+
+      practicalInfo: {
+        entryFee: "₹100 Indians, ₹500 Foreigners",
+        timings: "9:00 AM - 5:00 PM (Closed Mondays)",
+        guidedTours: "₹200 per group (up to 10 people)",
+        facilities: ["Museum shop", "Cafeteria", "Library", "Audio guides", "Photography allowed"],
+        workshops: "Daily craft demonstrations (10 AM, 2 PM, 4 PM)",
+        specialEvents: "Cultural festivals, seasonal celebrations",
+        contact: "+91-651-2234567"
+      },
+
+      weather: {
+        current: "Comfortable, 24°C",
+        recommendation: "Indoor activities, weather independent",
+        seasonal: {
+          winter: "Pleasant (12-25°C), peak visiting season",
+          summer: "Air-conditioned comfort (25-38°C outside)",
+          monsoon: "Indoor cultural activities, special monsoon exhibitions"
+        }
+      },
+
+      activities: [
+        "Guided museum tours",
+        "Traditional craft workshops",
+        "Tribal music sessions",
+        "Language learning programs",
+        "Photography tours",
+        "Research library access",
+        "Cultural performance viewing",
+        "Artifact documentation training"
+      ],
+
+      localGuides: [
+        {
+          name: "Dr. Meera Tirkey",
+          specialty: "Tribal Anthropology & History",
+          rating: 4.9,
+          price: "₹2000/day",
+          languages: ["Hindi", "English", "Kurukh", "Ho"]
+        },
+        {
+          name: "Suresh Munda",
+          specialty: "Traditional Crafts & Art Forms",
+          rating: 4.8,
+          price: "₹1500/day",
+          languages: ["Hindi", "English", "Mundari"]
+        }
+      ]
+    },
+
+    6: {
+      id: 6,
+      name: "Sarjom Jangal Sacred Grove",
+      category: "cultural",
+      images: [
+        "https://images.unsplash.com/photo-1633617127680-18229ebb1b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWNyZWQlMjBncm92ZSUyMHRlbXBsZSUyMHRyaWJhbCUyMHdvcnNoaXAlMjBpbmRpYXxlbnwxfHx8fDE3NTgwODYxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjB3aWxkbGlmZSUyMG5hdHVyZXxlbnwxfHx8fDE3NTc0MTA1ODh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "https://images.unsplash.com/photo-1739354270106-64c3fa92dd9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGluZGlhbiUyMGRydW1zJTIwbXVzaWMlMjBpbnN0cnVtZW50c3xlbnwxfHx8fDE3NTgwODYxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      ],
+      rating: 4.7,
+      duration: "4-6 hours",
+      distance: "85 km from Ranchi",
+      bestTime: "October to April",
+      description: "Experience the spiritual heart of tribal Jharkhand in this ancient sacred grove where Munda and Oraon communities have practiced ancestral worship for over 1,000 years.",
+
+      history: {
+        title: "Ancient Sanctuary of Tribal Spirituality",
+        content: `Sarjom Jangal, meaning "the forest of all spirits" in the local Mundari language, represents one of Jharkhand's most sacred and ecologically significant cultural landscapes. This 500-acre grove has been protected by tribal communities for over a millennium, making it both a spiritual sanctuary and a remarkable example of indigenous conservation.
+
+According to Munda oral traditions, this grove was consecrated by their ancestors who believed it to be the dwelling place of Singbonga, the supreme deity of nature. The grove contains the Mahato Than, the most sacred altar where tribal priests called Pahans conduct seasonal ceremonies that have remained unchanged for centuries.
+
+The ecological diversity of Sarjom Jangal is extraordinary, harboring over 200 species of indigenous trees, many of which are considered sacred and used in traditional medicine. The grove includes rare specimens like the ancient Mahua trees, some estimated to be over 800 years old, which are central to Munda cultural practices and festivals.
+
+Archaeological evidence suggests that this area has been continuously inhabited for over 2,000 years. Stone circles and megalithic structures found within the grove indicate that it may have been a significant ceremonial site even before the arrival of current tribal communities.
+
+The grove follows a complex system of traditional ecological management called "Sarjom Pratha," where specific areas are designated for different purposes - meditation zones, medicinal plant cultivation, and wildlife corridors. This indigenous knowledge system has maintained the grove's biodiversity while allowing sustainable human interaction.
+
+During the colonial period, British administrators documented this grove as an example of "native forest conservation" that surpassed their own forestry methods. The grove survived the colonial period, industrial development, and modern urbanization largely due to the unwavering commitment of tribal guardians who continue to protect it today.
+
+Recent scientific studies have confirmed that Sarjom Jangal acts as a crucial carbon sink and biodiversity hotspot, validating the effectiveness of traditional conservation practices that tribal communities have maintained for generations.`
+      },
+
+      highlights: [
+        "1000-year-old sacred grove",
+        "Ancient Mahua trees (800+ years old)",
+        "Traditional tribal ceremonies",
+        "200+ indigenous tree species",
+        "Megalithic stone structures",
+        "Medicinal plant sanctuary",
+        "Spiritual meditation spaces",
+        "Indigenous conservation model"
+      ],
+
+      practicalInfo: {
+        entryFee: "₹150 per person (includes guided tour)",
+        timings: "6:00 AM - 6:00 PM",
+        ceremonialAccess: "Special permission required (contact tribal council)",
+        facilities: ["Eco-trails", "Meditation areas", "Herbal garden", "Visitor center"],
+        restrictions: "Photography limited in sacred areas, respectful behavior required",
+        guidedTours: "Mandatory (included in entry fee)",
+        contact: "+91-6512-345678"
+      },
+
+      weather: {
+        current: "Pleasant and humid, 25°C",
+        recommendation: "Perfect for forest meditation",
+        seasonal: {
+          winter: "Cool and misty (12-26°C), ideal for spiritual visits",
+          summer: "Warm but shaded (22-35°C), medicinal plant collection season",
+          monsoon: "Heavy rainfall, most sacred ceremonies performed"
+        }
+      },
+
+      activities: [
+        "Guided spiritual tours",
+        "Meditation sessions",
+        "Medicinal plant identification",
+        "Traditional ceremony observation",
+        "Eco-trail trekking",
+        "Photography (permitted areas)",
+        "Tribal priest interactions",
+        "Conservation awareness programs"
+      ],
+
+      localGuides: [
+        {
+          name: "Pahan Budhu Munda",
+          specialty: "Sacred Grove Spirituality & Tribal Rituals",
+          rating: 5.0,
+          price: "₹2500/day",
+          languages: ["Hindi", "Mundari", "Ho"]
+        },
+        {
+          name: "Sushila Oraon",
+          specialty: "Medicinal Plants & Traditional Healing",
+          rating: 4.8,
+          price: "₹1800/day",
+          languages: ["Hindi", "English", "Kurukh"]
+        }
+      ]
     }
   };
 
   // Related destinations based on category and proximity
   const relatedDestinations = [
     {
-      id: 4,
+      id: 7,
       name: "Jonha Falls",
       category: "waterfalls",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YXRlcmZhbGwlMjBtaXN0JTIwZm9yZXN0fGVufDF8fHx8MTc1NzQxMDU4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -302,16 +576,16 @@ The establishment of the Netarhat Field Firing Range by the Indian Army in 1958 
       description: "A beautiful 43-meter waterfall perfect for trekking and picnics."
     },
     {
-      id: 5,
+      id: 8,
       name: "Patratu Valley",
       category: "hills", 
-      image: "https://images.unsplash.com/photo-1734883502990-c002b4e47026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpbGwlMjBzdGF0aW9uJTIwc2NlbmljJTIwdmlld3xlbnwxfHx8fDE3NTc0MDk5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1734883502990-c002b4e47026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpbGwlMjBzdGF0aW9uJTIwc2NlbmljJTIwdmlld3hlbnwxfHx8fDE3NTc0MDk5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       rating: 4.3,
       distance: "40 km from Ranchi",
       description: "Scenic valley with dam views and adventure activities."
     },
     {
-      id: 6,
+      id: 9,
       name: "Birsa Zoological Park",
       category: "wildlife",
       image: "https://images.unsplash.com/photo-1549366021-9f761d040a94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVwaGFudCUyMHdpbGRsaWZlJTIwbmF0dXJlfGVufDF8fHx8MTc1NzQxMDU4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",

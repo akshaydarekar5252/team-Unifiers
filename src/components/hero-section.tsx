@@ -44,16 +44,16 @@ export function HeroSection({ onExploreClick, onPlanTripClick, onDestinationSele
           muted
           loop
           playsInline
-          className="w-full h-full object-cover fixed"
+          className="w-full h-full object-cover"
           poster="https://images.unsplash.com/photo-1582719508461-905c673771fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqaGFya2hhbmQlMjBuYXR1cmUlMjBsYW5kc2NhcGUlMjBmb3Jlc3R8ZW58MXx8fHwxNzU3NDA5OTk1fDA&ixlib=rb-4.1.0&q=80&w=1920&utm_source=figma&utm_medium=referral"
         >
           {/* Multiple video sources for better compatibility */}
           <source
-            src="/jharkhand_nature.mp4"
+            src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_2mb.mp4"
             type="video/mp4"
           />
           <source
-            src="https://wjjqricsgk.ufs.sh/f/hT9nIDK6CVFoiaRlxxIECF94qfnjXUksSWyr3Ta7mKh2xLbY"
+            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
             type="video/mp4"
           />
           {/* Fallback for browsers that don't support video */}

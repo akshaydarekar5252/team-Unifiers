@@ -13,7 +13,8 @@ import {
   Building, 
   Waves,
   Filter,
-  Search
+  Search,
+  Users
 } from "lucide-react";
 import { Input } from "./ui/input";
 
@@ -31,6 +32,7 @@ export function DestinationsSection({ onDestinationSelect }: DestinationsSection
     { id: "wildlife", label: "Wildlife", icon: TreePine },
     { id: "hills", label: "Hill Stations", icon: Mountain },
     { id: "heritage", label: "Heritage", icon: Building },
+    { id: "cultural", label: "Cultural", icon: Users },
   ];
 
   const destinations = [
@@ -60,7 +62,7 @@ export function DestinationsSection({ onDestinationSelect }: DestinationsSection
       id: 3,
       name: "Netarhat Hill Station",
       category: "hills",
-      image: "https://images.unsplash.com/photo-1734883502990-c002b4e47026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpbGwlMjBzdGF0aW9uJTIwc2NlbmljJTIwdmlld3xlbnwxfHx8fDE3NTc0MDk5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1734883502990-c002b4e47026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpbGwlMjBzdGF0aW9uJTIwc2NlbmljJTIwdmlld3hlbnwxfHx8fDE3NTc0MDk5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       rating: 4.7,
       duration: "2-3 days",
       description: "Queen of Chotanagpur with breathtaking sunrise and sunset views.",
@@ -69,25 +71,36 @@ export function DestinationsSection({ onDestinationSelect }: DestinationsSection
     },
     {
       id: 4,
-      name: "Deoghar Temple Complex",
-      category: "heritage",
-      image: "https://images.unsplash.com/photo-1721532865728-7ee780270309?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB0ZW1wbGUlMjBoaXN0b3JpY2FsJTIwbW9udW1lbnR8ZW58MXx8fHwxNzU3NDA5OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      name: "Santhal Pargana Cultural Village",
+      category: "cultural",
+      image: "https://images.unsplash.com/photo-1611262360544-af37696056b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmliYWwlMjB2aWxsYWdlJTIwaW5kaWElMjBjdWx0dXJhbCUyMGhlcml0YWdlfGVufDF8fHx8MTc1ODA4NjE0MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       rating: 4.9,
-      duration: "Half Day",
-      description: "Sacred pilgrimage site with ancient Shiva temple and spiritual significance.",
-      highlights: ["Ancient Architecture", "Spiritual Experience", "Cultural Tours"],
-      distance: "250 km from Ranchi"
+      duration: "1-2 days",
+      description: "Experience authentic Santhal tribal culture through village stays and traditional arts.",
+      highlights: ["Village Homestay", "Traditional Crafts", "Folk Performances"],
+      distance: "280 km from Ranchi"
     },
     {
       id: 5,
-      name: "Patratu Valley",
-      category: "hills",
-      image: "https://images.unsplash.com/photo-1734883502990-c002b4e47026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpbGwlMjBzdGF0aW9uJTIwc2NlbmljJTIwdmlld3xlbnwxfHx8fDE3NTc0MDk5OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      rating: 4.5,
-      duration: "Full Day",
-      description: "Scenic valley known for its dam, boating, and adventure activities.",
-      highlights: ["Dam Views", "Boating", "Adventure Sports"],
-      distance: "40 km from Ranchi"
+      name: "Tribal Heritage Museum",
+      category: "cultural",
+      image: "https://images.unsplash.com/photo-1580467469359-91a73a6e92ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMGhhbmRpY3JhZnRzJTIwdHJpYmFsJTIwYXJ0JTIwaW5kaWF8ZW58MXx8fHwxNzU4MDg2MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      rating: 4.8,
+      duration: "Half day",
+      description: "Comprehensive showcase of Jharkhand's 32 tribal communities and their heritage.",
+      highlights: ["32 Tribal Communities", "Live Demonstrations", "Cultural Workshops"],
+      distance: "12 km from Ranchi"
+    },
+    {
+      id: 6,
+      name: "Sarjom Jangal Sacred Grove",
+      category: "cultural",
+      image: "https://images.unsplash.com/photo-1633617127680-18229ebb1b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzYWNyZWQlMjBncm92ZSUyMHRlbXBsZSUyMHRyaWJhbCUyMHdvcnNoaXAlMjBpbmRpYXxlbnwxfHx8fDE3NTgwODYxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      rating: 4.7,
+      duration: "4-6 hours",
+      description: "Ancient sacred grove where tribal communities have practiced ancestral worship for 1,000+ years.",
+      highlights: ["Sacred Grove", "Tribal Ceremonies", "Medicinal Plants"],
+      distance: "85 km from Ranchi"
     },
   ];
 
@@ -105,7 +118,7 @@ export function DestinationsSection({ onDestinationSelect }: DestinationsSection
           Explore Destinations
         </h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Discover Jharkhand's natural wonders, from cascading waterfalls to ancient temples
+          Discover Jharkhand's cultural heritage, natural wonders, and vibrant tribal traditions
         </p>
       </div>
 
