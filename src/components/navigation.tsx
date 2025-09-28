@@ -11,7 +11,8 @@ import {
   Users, 
   BarChart3,
   MessageCircle,
-  User
+  User,
+  Flower2
 } from "lucide-react";
 
 interface NavigationProps {
@@ -26,6 +27,7 @@ export function Navigation({ activeTab, setActiveTab, onOpenChat }: NavigationPr
   const navItems = [
     { id: "home", label: "Discover", icon: Globe },
     { id: "destinations", label: "Destinations", icon: MapPin },
+    { id: "cultural-calendar", label: "Cultural Calendar", icon: Flower2 },
     { id: "itinerary", label: "Plan Trip", icon: Calendar },
     { id: "marketplace", label: "Marketplace", icon: ShoppingBag },
     { id: "guides", label: "Local Guides", icon: Users },
@@ -65,10 +67,9 @@ export function Navigation({ activeTab, setActiveTab, onOpenChat }: NavigationPr
               variant="outline"
               size="sm"
               onClick={onOpenChat || (() => setActiveTab("chat"))}
-              className="hidden sm:flex items-center space-x-2"
+              className="hidden sm:flex items-center"
             >
               <MessageCircle className="h-4 w-4" />
-              <span>AI Assistant</span>
             </Button>
             
             <Button variant="outline" size="sm">
