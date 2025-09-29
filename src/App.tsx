@@ -7,13 +7,32 @@ import { ItineraryPlanner } from "./components/itinerary-planner";
 import { MarketplaceSection } from "./components/marketplace-section";
 import { GuidesSection } from "./components/guides-section";
 import { AnalyticsDashboard } from "./components/analytics-dashboard";
+import { CulturalCalendar } from "./components/cultural-calendar";
 import { AIChatbot } from "./components/ai-chatbot";
+import { SeasonalAlerts } from "./components/seasonal-alerts";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
   const [selectedDestinationId, setSelectedDestinationId] = useState<number | null>(null);
   const [isChatMinimized, setIsChatMinimized] = useState(true);
   const [isChatClosed, setIsChatClosed] = useState(false);
+
+  const handleSeasonalBooking = (alertId: string) => {
+    // Handle different booking actions based on alert type
+    switch (alertId) {
+      case "winter-festival":
+      case "harvest-season":
+        setActiveTab("cultural-calendar");
+        break;
+      case "monsoon-waterfalls":
+      case "summer-hill-retreat":
+      case "wildlife-safari":
+        setActiveTab("destinations");
+        break;
+      default:
+        setActiveTab("itinerary");
+    }
+  };
 
   const renderActiveSection = () => {
     // If a destination is selected, show its detail page
@@ -41,6 +60,8 @@ export default function App() {
             onDestinationSelect={(id) => setSelectedDestinationId(id)}
           />
         );
+      case "cultural-calendar":
+        return <CulturalCalendar />;
       case "itinerary":
         return <ItineraryPlanner />;
       case "marketplace":
@@ -72,6 +93,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Seasonal Alerts - Shows for 5 seconds on page load */}
+      <SeasonalAlerts onBookingClick={handleSeasonalBooking} />
+      
       <Navigation 
         activeTab={activeTab} 
         setActiveTab={setActiveTab}
@@ -113,6 +137,7 @@ export default function App() {
               <h4 className="font-semibold mb-4">Explore</h4>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li><button onClick={() => setActiveTab("destinations")}>Destinations</button></li>
+                <li><button onClick={() => setActiveTab("cultural-calendar")}>Cultural Calendar</button></li>
                 <li><button onClick={() => setActiveTab("itinerary")}>Plan Trip</button></li>
                 <li><button onClick={() => setActiveTab("guides")}>Local Guides</button></li>
                 <li><button onClick={() => setActiveTab("marketplace")}>Marketplace</button></li>
